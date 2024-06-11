@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link href="assets/lib/aos-master/aos-master/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/lib/fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Umarks - Contact</title>
+    <style>
+        /* width */
+        
+         ::-webkit-scrollbar {
+            width: 6px;
+        }
+        /* Track */
+        
+         ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px grey;
+            border-radius: 7px;
+        }
+        /* Handle */
+        
+         ::-webkit-scrollbar-thumb {
+            background-color: #000000b0;
+            border-radius: 6px;
+        }
+        /* Handle on hover */
+        
+         ::-webkit-scrollbar-thumb:hover {
+            background: #F87516;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <div class="logo">
+                <a href="index.html"><img src="assets/images/logo-blue.jpg" alt="Umarks Technologies"></a>
+            </div>
+
+            <div class="nav">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a class="contact-us" href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </div>
+    </header>
+
+    <section class="contact">
+        <h2>CONTACT US</h2>
+        <div class="container">
+            <div class="left">
+                <div class="address">
+                    <div class="a">
+                        <i class="fa-solid fa-location-dot" style="color: #f87516;"></i>
+                    </div>
+                    <div class="b">
+                        <h3>Our Address</h3>
+                        <p>#1, Chimenem Close Off Faith Avenue, Woji, Port Harcourt.</p>
+                    </div>
+                </div>
+                <div class="email">
+                    <div class="a">
+                        <i class="fa-solid fa-envelope" style="color: #f87516;"></i>
+                    </div>
+                    <div class="b">
+                        <h3>Email Us</h3>
+                        <ul>
+                            <li>umarkstechnologies@yahoo.com</li>
+                            <!-- <li>Help@harvoxx.com </li>
+                            <li>Admin@harvoxx.com</li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="call">
+                    <div class="a">
+                        <i class="fa-solid fa-phone" style="color: #f87516;"></i>
+                    </div>
+                    <div class="b">
+                        <h3>Call Us</h3>
+                        <ul>
+                            <li>+234 (0)707 351 6265</li>
+                            <!-- <li>08166301486 </li> -->
+                            <!-- <li>+2349030643105</li> -->
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <form onsubmit=" return validate()" class="right">
+                <p style="color:red;" id="error"> </p>
+                <div class="first-box">
+                    <div class="box-1">
+                        <input type="text" placeholder="Your Name" id="name" required/>
+                    </div>
+                    <div class="box-2">
+                        <input type="email" placeholder="Your Email" id="email" required/>
+
+                    </div>
+                </div>
+                <div class="second-box">
+                    <div class="box-3">
+                        <input type="text" placeholder="Subject" id="subject" />
+                    </div>
+                    <div class="box-4">
+                        <textarea class="message" placeholder="Message" row="4" cols="50" id="message"></textarea>
+
+                    </div>
+                </div>
+                <div class="submit">
+                    <button>send</button>
+                </div>
+
+            </form>
+
+
+
+        </div>
+
+
+    </section>
+    <script src="assets/lib/aos-master/aos-master/dist/aos.js"></script>
+    <script src="./assets/js/script.js "></script>
+</body>
+
+</html>
