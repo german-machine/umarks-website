@@ -605,12 +605,12 @@ header .head .nav nav ul li .contact-us:hover {
 .footer .container .container2 .logo {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 .footer .container .container2 .logo img {
     width: 220px;
-    height: 80px;
+    height: 55px;
 }
 
 
