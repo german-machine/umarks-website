@@ -1,23 +1,40 @@
 import React from 'react'
-import check from '../assets/images/image 20.svg'
+import { EXPERTISE } from './data'
+import devImg from '../assets/images/business-dev.png'
 
 const About = () => {
-  return (
-    <div className='w-full bg-white'>
-        <div className="w-[90%] md:w-[80%] m-auto py-9">
-            <h1 className='w-[50%] md:w-[30%] m-auto uppercase text-[30px] md:text-[40px] font-[700] text-center border-b-[4px] border-[#F87516] '>about us</h1>
-            <div className="w-full flex gap-4">
-                <div className="w-[50%]">
-                    <h1 className='font-[700] text-[96px] text-[#020181] leading-[82px]'>UMARKS <span className='font-[500] text-[80px] text-[#000]'>TECHNOLOGIES</span></h1>
-                    <p className='w-full font-[500] text-[24px] leading-[28px] text-[#000]'>Umarks technologies a one stop dstination for your websites,mobile apps,social media management and we provide the following services efficiently and professionally with our team of skilled and exceptionally good programmers, designers and marketers.</p>
-                </div>
-                <div className="w-[50%]">
-                    <img src={check} alt="" />
+    return (
+        <div className='w-full bg-white'>
+            <div className="w-[90%] lg:w-[80%] m-auto py-9">
+                <h1 className="text-[24px] md:text-[45px] font-bold text-[#020181] lg:text-center">Our Expertise and Experience</h1>
+                <div className="w-full lg:w-full flex space-x-4 lg:gap-[1px] lg:flex-nowrap relative max-w-ma overflow-x-scroll py-6">
+                    {EXPERTISE.map(item => (
+                        <ExpertsExperience key={item.id} item={item} />
+                    ))}
                 </div>
             </div>
         </div>
-    </div>
-  )
+    )
+
+    function ExpertsExperience({ item }) {
+        return (
+            <div className="h-[300px] lg:h-[340px] lg:w-[30%] lg:mt-25px rounded-[5px] relative flex-shrink-0 lg:flex-shrink w-[80%] md:w-[40%] m-auto bg-cover bg-center">
+                <div style={{ backgroundImage: `url(${item.img})`, objectFit: 'cover', borderRadius: '9px', width: '100%', height: '', backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
+                    <div className='w-full h-[300px] lg:h-[340px] rounded-[9px] bg-gradient-to-b from-[rgb(11_11_11)] to-[rgba(16_16_16)] opacity-[0.459]'></div>
+                </div>
+
+                <div className="absolute top-[20%] left-[20px] right-[20px] flex flex-col justify-center max-w-[90%] text-center">
+                    <div className='pb-[10px]'>
+                        <h4 className="text-white text-[19px] leading-[25px]">{item.label}</h4>
+                    </div>
+
+                    <div>
+                        <p className="text-white text-[14px] leading-[16px] font-normal">{item.content}</p>
+                    </div>
+                </div>
+            </div>
+        )
+    }
 }
 
 export default About

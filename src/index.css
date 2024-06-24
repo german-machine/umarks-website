@@ -2,8 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes navMenuSlide{
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 0;
+        transform: translateX(0px);
+    }
+}
+
 ::-webkit-scrollbar{
-    width:6px;
+    display:none;
+    width:1px;
 }
 
 ::-webkit-scrollbar-track{
@@ -14,4 +26,8 @@
 ::-webkit-scrollbar-thumb{
     background-color:#010180;
     border-radius:6px;
+}
+
+::-webkit-scrollbar-button{
+    display:none;
 }
