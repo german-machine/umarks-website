@@ -19,7 +19,7 @@ const Header = () => {
               {isToggled ? <CgClose onClick={handleClick} className="text-white lg:hidden text-[20px] md:text-[40px] duration-1000 transition-all cursor-pointer" />
                 : <CgMenuRightAlt onClick={handleClick} className='text-white lg:hidden text-[20px] md:text-[40px] duration-1000 transition-all cursor-pointer' />
               }
-                <ul className={`${isToggled ? 'flex' : 'translate-x-[100%] lg:translate-x-0 opacity-0 lg:opacity-100'} lg:block bg-[#010180] lg:max-w-max fixed lg:relative top-[14vh] lg:top-0 left-[15px] lg:left-0 right-[15px] lg:right-0 bottom-[15px] lg:bottom-0 z-10 rounded-lg ${isToggled ? 'animate-navSlideIn' : 'animate-navSlideOut'}`}>
+                <ul className={`${isToggled ? 'flex' : 'translate-x-[50%] lg:translate-x-0 opacity-0 lg:opacity-100'} lg:block bg-[#010180] lg:max-w-max fixed lg:relative top-[11vh] lg:top-0 left-[15px] lg:left-0 right-[15px] lg:right-0 bottom-[15px] lg:bottom-0 z-10 rounded-lg ${isToggled ? 'animate-navSlideIn lg:animate-none' : 'animate-navSlideOut lg:animate-none'}`}>
                     <li className='flex flex-col lg:flex-row gap-5 lg:gap-8 p-4 lg:p-0 items-center w-full'>
                         <Link smooth to='/#home' className='text-[#c4c0c0] hover:text-white duration-1000'>Home</Link>
                         <Link smooth to='/#services' className='text-[#c4c0c0] hover:text-white duration-1000'>Services</Link>
