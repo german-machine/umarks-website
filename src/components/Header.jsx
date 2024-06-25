@@ -11,7 +11,7 @@ const Header = () => {
     }
 
   return (
-    <div className="w-full bg-[#010180] fixed z-[1000]">
+    <div className="w-full bg-[#010180] fixed z-[1000] shadow-[0px_4px_4px_rgba(0,0,0,0.1)] ">
         <div className="w-[90%] lg:w-[80%] m-auto flex justify-between items-center py-3 px-1">
               <div className='w-[50%] lg:w-[20%]'>
                   <img src={logo} alt="" className='cursor-pointer'/>
