@@ -12,8 +12,8 @@ const WhoWeAre = () => {
                     <p className="text-white text-justify text-[19px] mb-[30px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, rem. Ut omnis repellat accusantium facere alias! Tempora tempore, quis, natus </p>
                     <p className="text-white text-justify text-[19px] mb-[30px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quisquam vitae voluptatum harum eos quo commodi dicta sunt provident beatae eum, perferendis in.</p>
                     <div className="flex justify-evenly gap-[50px]">
-                        <Link to='/about' className="duration-500 border border-sold border-[#F87516] text-[15px] no-underline rounded-[30px] bg-white text-[#131313] p-[5px_22px] hover:bg-[#F87516] hover:border-[#00000093] hover:text-[#ECECEC]">Read More</Link>
-                        <Link to='/contact' className="duration-500 border border-sold border-[#F87516] text-[15px] no-underline rounded-[30px] bg-[#00000093] text-white p-[5px_22px] hover:bg-[#F87516] hover:border-[#F87516] hover:text-[#ECECEC]">Contact Us</Link>
+                        <Link to='/about' className="duration-500 border border-sold border-white text-[15px] no-underline rounded-[30px] bg-white text-[#131313] p-[5px_22px] hover:bg-slate-400 hover:border-slate-400 hover:text-white">Read More</Link>
+                        <Link to='/contact' className="duration-500 border border-sold border-white text-[15px] no-underline rounded-[30px] bg-white text-[#131313] p-[5px_22px] hover:bg-slate-400 hover:border-slate-400 hover:text-white">Contact Us</Link>
                     </div>
                 </div>
                 <div className="w-[50%] relative hidden lg:block">
