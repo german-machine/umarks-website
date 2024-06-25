@@ -7,7 +7,7 @@ const About = () => {
         <div className='w-full bg-white'>
             <div className="w-[90%] lg:w-[80%] m-auto py-9">
                 <h1 className="text-[24px] md:text-[45px] font-bold text-[#020181] lg:text-center">Our Expertise and Experience</h1>
-                <div className="w-full lg:w-full flex space-x-4 lg:gap-[1px] lg:flex-nowrap relative max-w-ma overflow-x-scroll py-6">
+                <div className="w-full lg:w-full flex space-x-4 lg:gap-[1px] lg:flex-nowrap relative max-w-ma overflow-x-auto py-6">
                     {EXPERTISE.map(item => (
                         <ExpertsExperience key={item.id} item={item} />
                     ))}
