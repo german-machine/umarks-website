@@ -8,12 +8,12 @@ const WhoWeAre = () => {
         <div className="w-full bg-[#010180]">
             <div className="w-[90%] lg:w-[80%] m-auto py-16 flex flex-col lg:flex-row lg:items-center lg:justify-between relative">
                 <div className="lg:w-[45%]">
-                    <h2 className="text-white mb-[20px] font-bold text-[30px]">WHO WE ARE</h2>
-                    <p className="text-white text-justify text-[19px] mb-[30px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, rem. Ut omnis repellat accusantium facere alias! Tempora tempore, quis, natus </p>
-                    <p className="text-white text-justify text-[19px] mb-[30px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quisquam vitae voluptatum harum eos quo commodi dicta sunt provident beatae eum, perferendis in.</p>
+                    <h2 className="text-white mb-[20px] font-bold text-[30px]" data-aos="fade-up" data-aos-once="false" data-aos-mirror="false">WHO WE ARE</h2>
+                    <p className="text-white text-justify text-[19px] mb-[30px]" data-aos="fade-up" data-aos-once="false" data-aos-mirror="false">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, rem. Ut omnis repellat accusantium facere alias! Tempora tempore, quis, natus </p>
+                    <p className="text-white text-justify text-[19px] mb-[30px]" data-aos="fade-up" data-aos-once="false" data-aos-mirror="false">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quisquam vitae voluptatum harum eos quo commodi dicta sunt provident beatae eum, perferendis in.</p>
                     <div className="flex justify-evenly gap-[50px]">
-                        <Link to='/about' className="duration-500 border border-sold border-white text-[15px] no-underline rounded-[30px] bg-white text-[#131313] p-[5px_22px] hover:bg-slate-400 hover:border-slate-400 hover:text-white">Read More</Link>
-                        <Link to='/contact' className="duration-500 border border-sold border-white text-[15px] no-underline rounded-[30px] bg-white text-[#131313] p-[5px_22px] hover:bg-slate-400 hover:border-slate-400 hover:text-white">Contact Us</Link>
+                        <Link to='/about' className="duration-500 border border-sold border-white text-[15px] no-underline rounded-[30px] bg-white text-[#131313] p-[5px_22px] hover:bg-slate-400 hover:border-slate-400 hover:text-white" data-aos="fade-up" data-aos-once="false" data-aos-mirror="false">Read More</Link>
+                        <Link to='/contact' className="duration-500 border border-sold border-white text-[15px] no-underline rounded-[30px] bg-white text-[#131313] p-[5px_22px] hover:bg-slate-400 hover:border-slate-400 hover:text-white" data-aos="fade-up" data-aos-once="false" data-aos-mirror="false">Contact Us</Link>
                     </div>
                 </div>
                 <div className="w-[50%] relative hidden lg:block">
