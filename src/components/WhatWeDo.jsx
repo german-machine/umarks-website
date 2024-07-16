@@ -6,29 +6,29 @@ const WhatWeDo = () => {
     return (
         <div className="w-full bg-white relative" id='services'>
             <div className="w-[95%] lg:w-[90%] m-auto flex flex-wrap lg:flex-nowrap gap-2 py-12">
-            <h1 className='w-full block lg:hidden text-[#020181] text-[30px] font-bold text-center'>What We Do</h1>
+            <h1 className='w-full block lg:hidden text-[#020181] text-[32px] font-bold text-center' data-aos="fade-up" data-aos-once="false" data-aos-mirror="false">What We Do</h1>
                 <div className="flex flex-col lg:w-[30%] flex-shrink lg:flex-shrink-0 gap-3">
-                    <div className="lg:w-[100%] bg-[#D9D9D9] rounded-[10px] p-[30px_20px]">
+                    <div className="lg:w-[100%] bg-[#D9D9D9] rounded-[10px] p-[30px_20px]" data-aos="fade-up" data-aos-once="false" data-aos-mirror="false">
                         <div className="flex items-center gap-2 md:gap-4 lg:gap-2 mb-2">
                             <div className="">
-                                <FaCode className="text-[30px] md:text-[40px] lg:text-[30px] text-[#F87516]"/>
+                                <FaCode className="text-[32px] md:text-[40px] lg:text-[30px] text-[#F87516]"/>
                             </div>
-                            <h2 className="font-bold text-[#020181] text-[18px] md:text-[26px] lg:text-[18px]">Web Development</h2>
+                            <h2 className="font-bold text-[#020181] text-[24px] md:text-[26px] lg:text-[18px]">Web Development</h2>
                         </div>
                         <div>
-                            <p className="text-[16px] md:text-[22px] lg:text-[16px] text-[#F87516] text-justify">Lorem ipsum dolor sit amet consectetur adipiscing elit leo quis, suscipit dignissim rutrum at non porttitor ante vel</p>
+                            <p className="text-[18px] md:text-[22px] lg:text-[16px] text-[#F87516] text-justify">Lorem ipsum dolor sit amet consectetur adipiscing elit leo quis, suscipit dignissim rutrum at non porttitor ante vel</p>
                         </div>
                     </div>
 
-                    <div className="lg:w-[100%] bg-[#D9D9D9] rounded-[10px] p-[30px_20px]">
+                    <div className="lg:w-[100%] bg-[#D9D9D9] rounded-[10px] p-[30px_20px]" data-aos="fade-up" data-aos-once="false" data-aos-mirror="false">
                         <div className="flex items-center gap-2 md:gap-4 lg:gap-2 mb-2">
                             <div className="">
-                                <FaLaptopCode className="text-[30px] md:text-[40px] lg:text-[30px] text-[#F87516]"/>
+                                <FaLaptopCode className="text-[32px] md:text-[40px] lg:text-[30px] text-[#F87516]"/>
                             </div>
-                            <h2 className="font-bold text-[#020181] text-[18px] md:text-[26px] lg:text-[18px]">Software & Tailored System Development</h2>
+                            <h2 className="font-bold text-[#020181] text-[22px] md:text-[26px] lg:text-[18px]">Software & Tailored System Development</h2>
                         </div>
                         <div>
-                            <p className="text-[16px] md:text-[22px] lg:text-[16px] text-[#F87516] text-justify">Lorem ipsum dolor sit amet consectetur adipiscing elit leo quis, suscipit dignissim rutrum at non porttitor ante vel</p>
+                            <p className="text-[18px] md:text-[22px] lg:text-[16px] text-[#F87516] text-justify">Lorem ipsum dolor sit amet consectetur adipiscing elit leo quis, suscipit dignissim rutrum at non porttitor ante vel</p>
                         </div>
                     </div>
                 </div>
@@ -38,28 +38,28 @@ const WhatWeDo = () => {
                     <div className="w-full flex-1 flex-grow bg-cover bg-center items-center justify-center" style={{ backgroundImage: `url(${whatwedo})`, backgroundPosition: 'center', backgroundSize: 'contain', width: '', backgroundRepeat: 'no-repeat', objectFit: 'cover', height: '85%' }}></div>
                 </div>
 
-                <div className="flex flex-col lg:w-[30%] flex-shrink lg:flex-shrink-0 gap-3">
+                <div className="flex flex-col lg:w-[30%] flex-shrink lg:flex-shrink-0 gap-3" data-aos="fade-up" data-aos-once="false" data-aos-mirror="false">
                     <div className="lg:w-[100%] bg-[#D9D9D9] rounded-[10px] p-[30px_20px]">
                         <div className="flex items-center gap-2 md:gap-4 lg:gap-2 mb-2">
                             <div className="">
-                                <FaMobile className="text-[30px] md:text-[40px] lg:text-[30px] text-[#F87516]" />
+                                <FaMobile className="text-[32px] md:text-[40px] lg:text-[30px] text-[#F87516]" />
                             </div>
-                            <h2 className="font-bold text-[#020181] text-[18px] md:text-[26px] lg:text-[18px] ">Mobile App Development</h2>
+                            <h2 className="font-bold text-[#020181] text-[22px] md:text-[26px] lg:text-[18px] ">Mobile App Development</h2>
                         </div>
                         <div>
-                            <p className="text-[16px] md:text-[22px] lg:text-[16px] text-[#F87516] text-justify">Lorem ipsum dolor sit amet consectetur adipiscing elit leo quis, suscipit dignissim rutrum at non porttitor ante vel</p>
+                            <p className="text-[18px] md:text-[22px] lg:text-[16px] text-[#F87516] text-justify">Lorem ipsum dolor sit amet consectetur adipiscing elit leo quis, suscipit dignissim rutrum at non porttitor ante vel</p>
                         </div>
                     </div>
 
-                    <div className="lg:w-[100%] bg-[#D9D9D9] rounded-[10px] p-[30px_20px]">
+                    <div className="lg:w-[100%] bg-[#D9D9D9] rounded-[10px] p-[30px_20px]" data-aos="fade-up" data-aos-once="false" data-aos-mirror="false">
                         <div className="flex items-center gap-2 md:gap-4 lg:gap-2 mb-2">
                             <div className="">
-                                <FaPenFancy className="text-[30px] md:text-[40px] lg:text-[30px] text-[#F87516]"/>
+                                <FaPenFancy className="text-[32px] md:text-[40px] lg:text-[30px] text-[#F87516]"/>
                             </div>
-                            <h2 className="font-bold text-[#020181] text-[18px] md:text-[26px] lg:text-[18px]">Business Branding & Product Design</h2>
+                            <h2 className="font-bold text-[#020181] text-[22px] md:text-[26px] lg:text-[18px]">Business Branding & Product Design</h2>
                         </div>
                         <div>
-                            <p className="text-[16px] md:text-[22px] lg:text-[16px] text-[#F87516] text-justify">Lorem ipsum dolor sit amet consectetur adipiscing elit leo quis, suscipit dignissim rutrum at non porttitor ante vel</p>
+                            <p className="text-[18px] md:text-[22px] lg:text-[16px] text-[#F87516] text-justify">Lorem ipsum dolor sit amet consectetur adipiscing elit leo quis, suscipit dignissim rutrum at non porttitor ante vel</p>
                         </div>
                     </div>
                 </div>

@@ -7,14 +7,14 @@ import { FaXTwitter } from 'react-icons/fa6'
 
 const Footer = () => {
     return (
-        <div className="w-full bg-[#010180]">
+        <div className="w-full bg-[#010180] overflow-hidden">
             <div className="w-[90%] md:w-[85%] m-auto py-10">
-                <div className="mb-4">
+                <div className="mb-4" data-aos="fade-up" data-aos-once="false" data-aos-mirror="false">
                     <p className="text-[16px] font-[300] text-white text-center">Lorem ipsum dolor sit amet consectetur adipiscing elit leo quis, suscipit dignissim rutrum at non porttitor ante vel
                         <br /> DLorem ipsum dolor sit amet consectetur adipiscing elit leo quis, suscipit dignissim</p>
                 </div>
 
-                <div className="w-full m-auto flex lg:flex-row flex-wrap lg:flex-nowrap gap-[10px] space-y-4 mb-8">
+                <div className="w-full m-auto flex lg:flex-row flex-wrap lg:flex-nowrap gap-[10px] space-y-4 mb-8" data-aos="fade-up" data-aos-once="false" data-aos-mirror="false">
                     <div className="w-full md:w-[50%] border-r-[1px] border-r-solid border-r-white ">
                         <div className="w-[50%] mb-[12px ">
                             <img src={logoBlue} alt="" />
@@ -23,7 +23,7 @@ const Footer = () => {
                         vel</p>
                     </div>
 
-                    <div className="w-full md:w-[35%] md:border-r border-r-solid border-r-white flex flex-col justify-center gap-[10px] md:pl-10">
+                    <div data-aos="fade-up" data-aos-once="false" data-aos-mirror="false" className="w-full md:w-[35%] md:border-r border-r-solid border-r-white flex flex-col justify-center gap-[10px] md:pl-10">
                         <p className="text-[16px] text-white font-semibold">Quick Links</p>
                         <HashLink smooth to='/#home' className="text-white no-underline text-[16px] font-[200]">Home</HashLink>
                         <HashLink smooth to='/#services' className="text-white no-underline text-[16px] font-[200]">Services</HashLink>
@@ -31,7 +31,7 @@ const Footer = () => {
                         <Link className="text-white no-underline text-[16px] font-[200]">Contact Us</Link>
                     </div>
 
-                    <div className="w-full md:w-[45%] md:mt-5 md:border-r border-r-solid border-r-white flex flex-col justify-center gap-[10px] p-[0px_5px]">
+                    <div data-aos="fade-up" data-aos-once="false" data-aos-mirror="false" className="w-full md:w-[45%] md:mt-5 md:border-r border-r-solid border-r-white flex flex-col justify-center gap-[10px] p-[0px_5px]">
                         <p className="text-[16px] text-white font-semibold">Services</p>
                         <Link className="text-white no-underline text-[16px] font-[200]">Web Development</Link>
                         <Link className="text-white no-underline text-[16px] font-[200]">Mobile App Development</Link>
@@ -39,7 +39,7 @@ const Footer = () => {
                         <Link className="text-white no-underline text-[16px] font-[200]">Business Branding & Product Design</Link>
                     </div>
 
-                    <div className="w-full md:w-[45%] flex flex-col justify-center gap-[10px]">
+                    <div data-aos="fade-up" data-aos-once="false" data-aos-mirror="false" className="w-full md:w-[45%] flex flex-col justify-center gap-[10px]">
                         <p className="text-[16px] text-white font-semibold">Contact</p>
                         <div className="flex gap-2 items-center">
                             <FaPhone className="text-[16px] text-white" />
@@ -68,7 +68,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className='w-full text-center'>
+                <div data-aos="fade-up" data-aos-once="false" data-aos-mirror="false" className='w-full text-center'>
                     <p className="text-[16px] text-white">© 2024 Umarks Technologies. All rights reserved</p>
                 </div>
             </div>
