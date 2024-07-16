@@ -7,8 +7,8 @@ export default {
   theme: {
       extend: {
           animation: {
-            navSlideIn: 'navSlideIn 1s ease-in-out',
-            navSlideOut: 'navSlideOut 1s ease-in-out'
+            navSlideIn: 'navSlideIn 0.5s ease-in-out',
+            navSlideOut: 'navSlideOut 0.5s ease-in-out'
           },
           keyframes: {
               navSlideIn: {
